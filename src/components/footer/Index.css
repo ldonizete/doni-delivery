@@ -1,0 +1,23 @@
+footer {
+  background-color: black;
+  color: #fff;
+}
+
+a:hover {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.contentFooterLink {
+  max-width: 160px;
+}
+
+.contentTerm {
+  width: 300px;
+}
+
+.textAddress {
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 14px;
+}
