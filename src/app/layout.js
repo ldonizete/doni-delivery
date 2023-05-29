@@ -13,7 +13,7 @@ const data = { cartValue: 0, products: Products };
 
 export const bagCountContext = createContext(data);
 
-export const metadata = {
+const metadata = {
   title: "Doni Delivery",
   description: "Delivery de bebidas e petisco",
   viewport:
