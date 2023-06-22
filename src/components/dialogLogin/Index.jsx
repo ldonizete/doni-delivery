@@ -19,7 +19,12 @@ export default function DialogLogin() {
 
   return (
     <React.Fragment>
-      <Button className="btnEnter" onClick={handleOpen} aria-label="Entrar">
+      <Button
+        className="btnEnter"
+        onClick={handleOpen}
+        aria-label="Entrar"
+        value={open}
+      >
         Entrar
       </Button>
       <Dialog
@@ -55,7 +60,7 @@ export default function DialogLogin() {
               aria-label="Entrar"
               fullWidth
             >
-              Entrar
+              Login
             </Button>
             <Typography variant="small" className="mt-6 flex justify-center">
               Don&apos;t have an account?

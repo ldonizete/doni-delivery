@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "next lint",
     "test": "jest --watch",
-    "coverage": "jest --coverage"
+    "coverage": "jest --coverage",
+    "cypress": "cypress open"
   },
   "dependencies": {
     "@material-tailwind/react": "^2.0.1",
